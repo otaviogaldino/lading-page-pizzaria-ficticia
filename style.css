@@ -123,3 +123,14 @@ footer {
         color: var(--cor-secundaria);
     }
 }
+
+@media (max-width: 768px) {
+    .cardapio-cards {
+        flex-direction: column;
+        width: 100%;
+    }
+    .cardapio-card {
+        width: 80%;
+    }
+} 
+/* Fim do CSS */
